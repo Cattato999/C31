@@ -9,7 +9,6 @@ class Particle {
         this.color=color(random(0,255), ramdom(0,255), random(0,255));
         World.add(world, this.body);
     }
-}
 
     display(){
         var pos = this.body.position;
@@ -25,6 +24,6 @@ class Particle {
         pop();
     }
 
-        
+}
     
     
